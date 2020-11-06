@@ -1,15 +1,11 @@
-# 👷 `worker-template` Hello World
+# 👷 Cloudflare JavaScript worker example 
 
-A template for kick starting a Cloudflare worker project.
+Built with Cloudflare [example](https://github.com/cloudflare/worker-template/).
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
-
-#### Wrangler
-
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
+### Deployment
 
 ```
-wrangler generate projectname https://github.com/cloudflare/worker-template
+yarn publish
 ```
 
 Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
